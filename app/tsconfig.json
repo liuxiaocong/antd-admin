@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "strict": true,
+    "strictFunctionTypes": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "target": "es2017",
+    "jsx": "react-jsx",
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "./src"
+  ]
+}
