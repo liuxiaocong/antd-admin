@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./page/home";
 import Login from "./page/login";
+import "./App.less";
 function App() {
   const hasLogin = true;
 
