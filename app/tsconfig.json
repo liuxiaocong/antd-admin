@@ -1,10 +1,7 @@
 {
   "compilerOptions": {
     "downlevelIteration": true,
-    "lib": [
-      "dom",
-      "es2017"
-    ],
+    "lib": ["dom", "es2017"],
     "strict": true,
     "strictFunctionTypes": false,
     "module": "esnext",
@@ -15,7 +12,7 @@
     "jsx": "react-jsx",
     "importHelpers": true,
     "noEmitHelpers": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
     "esModuleInterop": true,
@@ -27,7 +24,5 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": [
-    "./src"
-  ]
+  "include": ["./src"]
 }

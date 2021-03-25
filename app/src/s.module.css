@@ -1,0 +1,12 @@
+.wrap {
+  height: 100vh;
+}
+
+.header,
+.header h1 {
+  color: #fff;
+}
+
+.content {
+  background: #fff;
+}
